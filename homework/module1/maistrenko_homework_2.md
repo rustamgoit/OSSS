@@ -1,28 +1,30 @@
-# Домашнє завдання №1. Основи Linux і робота в терміналі
+# Домашнє завдання №2. Файлова система і права доступу
 
 **Виконав:** Рустам Майстренко
 
 ---
 
-## Завдання 1. Базові команди
+## Завдання 1. Ієрархія каталогів Linux
 
-### 1. Показати вміст домашнього каталогу
+### 1. Перейди в кореневий каталог / і покажи вміст
 
 ```bash
-cd ~
+cd /
 ls
 ```
 
 Результат:
 
-```text
-Downloads
+```bash
+bin                dev   init               lib64       mnt   root  sbin.usr-is-merged  sys  var
+bin.usr-is-merged  etc   lib                lost+found  opt   run   snap                tmp
+boot               home  lib.usr-is-merged  media       proc  sbin  srv                 usr
 ```
 
-### 2. Перейти у каталог Downloads і показати його вміст
+### 2. Перейди в /etc і покажи вміст
 
 ```bash
-cd ~/Downloads
+cd /etc
 ls
 ```
 
